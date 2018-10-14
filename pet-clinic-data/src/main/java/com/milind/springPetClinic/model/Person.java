@@ -1,6 +1,9 @@
 package com.milind.springPetClinic.model;
 
-public class Person {
+import javax.persistence.MappedSuperclass;
+
+@MappedSuperclass
+public class Person extends BaseEntity {
 
     private String firstName;
 
